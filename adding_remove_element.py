@@ -4,5 +4,5 @@
 
 import numpy as np 
 
-a = np.array([45,65,54,55])
-print(np.append(a,90))
+a = np.array([[45,65],[54,55]])
+print(np.append(a,[90,78]))
