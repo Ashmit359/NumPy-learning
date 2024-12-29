@@ -9,5 +9,6 @@ import numpy as np
 
 # np.insert
 
-a = np.array([55,64,55,7,88])
-print(np.insert(a,2,777))
+a = np.array([[55,64],[55,7],[88,86]])
+print(np.insert(a,2,777)) #array, index, value
+print(np.insert(a,1,[45,65], axis = 0))
