@@ -8,6 +8,15 @@ import numpy as np
 # p = np.where(arr % 4 == 0)
 # print(s,p)
 
-arr = np.array ([1,2,3,4,5,6,7,8,9])
-s = np.searchsorted(arr,5)
-print(s)
+# arr = np.array ([1,2,3,4,5,6,7,8,9])
+# s = np.searchsorted(arr,5)
+# print(s)
+
+arr = np.array([20,30,40,50,60,70])
+
+
+fa = [True, False,  True,  False,  True, False]
+
+new = arr[fa]
+
+print(new)
